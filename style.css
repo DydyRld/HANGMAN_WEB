@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    height: 10vh;
+    color: black;
+    text-decoration: none;
+
+}
+
+li {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+
+nav {
+    list-style-type: none;
+    background: linear-gradient(90deg, rgba(255,218,185,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);
+
+
+    font-weight: bold;
+    list-style-type: none;
+
+}
+
+input {
+    width: 350px;
+    height: 3em;
+    border-color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.envoyer {
+    margin-top: 10px;
+    width: 350px;
+    height: 3em;
+    background-color: green;
+    text-align: center;
+    border-radius: 5px;
+    color: white
+}
+
+.divexample {
+    display: flex;
+    flex-direction: column;
+}
+
+.remain {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 5px;
+    height: 2em;
+    background-color: peachpuff;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    margin: 3px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: right;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.gauche {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+    height: 90vh;
+
+
+}
+.droite{    
+    background-image: url("images/pendu10.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}

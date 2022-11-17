@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap%27');
+
+h1 {
+  text-align: center;
+  font-family: 'Noto sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: peachpuff;
+}
+
+span {
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+
+span a {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Noto sans JP', sans-serif;
+
+}
+
+span a:before,
+span a:after {
+  position: absolute;
+  content: "PLAY";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+span a:before {
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+
+span a:after {
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+
+span a:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
+
+.supportb {
+  margin-top: 45%;
+  position: absolute;
+  right: 20px;
+
+}
+
+
+
+a {
+  color: #000;
+  border-bottom: 2px solid peachpuff;
+  text-decoration: none;
+}
+
+
+button {
+
+  border: none;
+  background-color: peachpuff;
+  padding: 0%;
+  border-bottom: 1px solid peachpuff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+a:hover{
+text-decoration:  underline;
+color:black
+}
