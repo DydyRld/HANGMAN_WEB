@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +46,7 @@ a:hover {
 
 nav {
     list-style-type: none;
-    background: linear-gradient(90deg, rgba(255,218,185,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255, 218, 185, 1) 30%, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 1) 100%);
 
 
     font-weight: bold;
@@ -67,7 +69,6 @@ input {
     background-color: green;
     text-align: center;
     border-radius: 5px;
-    color: white
 }
 
 .divexample {
@@ -93,10 +94,11 @@ img {
     align-items: right;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
 .gauche {
     display: grid;
     justify-content: center;
@@ -106,9 +108,20 @@ img {
 
 
 }
-.droite{    
-    background-image: url("images/pendu10.png");
+
+.droite {
+
     background-repeat: no-repeat;
     background-position: center;
-    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+
 }
